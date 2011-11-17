@@ -13,8 +13,8 @@ namespace SSD2
         AudioDevice device;
         int rows;
 
-        int lowFreq = 750;
-        int highFreq = 7500;
+        int lowFreq = 250;
+        int highFreq = 2500;
 
         public Output(int _rows)
         {
